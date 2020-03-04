@@ -4,7 +4,7 @@ import Questions from "./Questions";
 import Blog from "./Blog";
 import Contact from "./Contact";
 import Social from "./Social";
-import Cedit from "./Cedit";
+import Credit from "./Credit";
 
 class Footer extends React.Component {
   render() {
@@ -14,22 +14,16 @@ class Footer extends React.Component {
           <div className="section_container">
             <div className="container">
               <div className="row">
-                
                 <About/>
-                
                 <Questions/>
-                
                 <Blog/>
-                
                 <Contact/>
               </div>
             </div>
           </div>
         </div>
-        
-        <Social></Social>
-        
-        <Cedit></Cedit>
+        <Social/>
+        <Credit/>
       </footer>
     );
   }

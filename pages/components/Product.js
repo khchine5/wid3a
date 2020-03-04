@@ -1,4 +1,6 @@
 import React from "react";
+import Link from 'next/link'
+
 
 class Product extends React.Component {
   render() {
@@ -11,7 +13,9 @@ class Product extends React.Component {
           </div>
           <div className="product_content text-center">
             <div className="product_title">
-              <a href="product.html">long red shirt</a>
+              <Link href="/product">
+                <a>long red shirt</a>
+              </Link>
             </div>
             <div className="product_price">$39.90</div>
             <div className="product_button ml-auto mr-auto trans_200">

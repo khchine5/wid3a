@@ -12,14 +12,14 @@ class Body extends React.Component {
   render() {
     return (
       <div className="super_container">
-        <Menu></Menu>
-        <Sidebar></Sidebar>
-        <Home></Home>
-        <Boxes></Boxes>
-        <Categories></Categories>
-        <Products></Products>
-        <Newsletter></Newsletter>
-        <Footer></Footer>
+        <Menu/>
+        <Sidebar/>
+        <Home/>
+        <Boxes/>
+        <Categories/>
+        <Products/>
+        <Newsletter/>
+        <Footer/>
       </div>
     );
   }

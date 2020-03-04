@@ -1,6 +1,6 @@
 import React from "react";
 
-class Cedit extends React.Component {
+class Credit extends React.Component {
   render() {
     return (
       <div className="credits">
@@ -28,4 +28,4 @@ class Cedit extends React.Component {
   }
 }
 
-export default Cedit;
+export default Credit;

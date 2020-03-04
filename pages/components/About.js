@@ -5,11 +5,10 @@ class About extends React.Component {
     return (
       <div className="col-xxl-3 col-md-6 footer_col">
         <div className="footer_about">
-          
           <div className="footer_logo">
             <a href="#">
               <div>
-                a<span>star</span>
+                W<span>id3a</span>
               </div>
             </a>
           </div>

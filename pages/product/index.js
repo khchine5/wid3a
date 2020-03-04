@@ -1,6 +1,6 @@
 import React from "react";
 import Head from 'next/head'
-import Body from "./components/Body";
+import ProductsListBody from "./Head";
 
 class Index extends React.Component {
   render() {
@@ -23,8 +23,10 @@ class Index extends React.Component {
               crossOrigin="anonymous"/>
               <link rel="stylesheet" type="text/css" href="/static/styles/main_styles.css" />
               <link rel="stylesheet" type="text/css" href="/static/styles/responsive.css" />
+              <link rel="stylesheet" type="text/css" href="/static/styles/product.css"/>
+              <link rel="stylesheet" type="text/css" href="/static/styles/product_responsive.css"/>
               </Head>
-              <Body/>
+              <ProductsListBody/>
             </React.Fragment>
   }
 }
