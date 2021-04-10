@@ -23,27 +23,27 @@ class About extends React.Component {
             <ul className="d-flex flex-row align-items-center justify-content-start">
               <li>
                 <a href="#">
-                  <img src="/static/images/card_1.jpg" alt />
+                  <img src="/static/images/card_1.jpg" alt=""  />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/static/images/card_2.jpg" alt />
+                  <img src="/static/images/card_2.jpg" alt=""  />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/static/images/card_3.jpg" alt />
+                  <img src="/static/images/card_3.jpg" alt=""  />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/static/images/card_4.jpg" alt />
+                  <img src="/static/images/card_4.jpg" alt=""  />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/static/images/card_5.jpg" alt />
+                  <img src="/static/images/card_5.jpg" alt=""  />
                 </a>
               </li>
             </ul>

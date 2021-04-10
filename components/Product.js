@@ -6,7 +6,7 @@ const Product = ({ product }) => {
     <div className="product grid-item hot">
       <div className="product_inner">
         <div className="product_image">
-          {product && product.assets ? (
+          {product.assets ? (
             <img src={product.assets[0].url} alt={product.description} />
           ) : (
             <img src="/static/images/product_1.jpg" alt={product.description} />
@@ -15,7 +15,7 @@ const Product = ({ product }) => {
         </div>
         <div className="product_content text-center">
           <div className="product_title">
-            <Link href="/product">
+            <Link href={"/product/" + product.permalink} >
               <a>{product.name}</a>
             </Link>
           </div>
