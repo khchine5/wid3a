@@ -160,7 +160,7 @@ class Sidebar extends React.Component {
         <div className="cart d-flex flex-row align-items-center justify-content-start">
           <div className="cart_icon">
             <a href="cart.html">
-              <img src="/static/images/bag.png" alt />
+              <img src="/static/images/bag.png" alt="product" />
               <div className="cart_num">2</div>
             </a>
           </div>

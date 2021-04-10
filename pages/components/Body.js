@@ -8,21 +8,19 @@ import Products from "./Products";
 import Newsletter from "./Newsletter";
 import Footer from "./Footer";
 
-class Body extends React.Component {
-  render() {
-    return (
-      <div className="super_container">
-        <Menu/>
-        <Sidebar/>
-        <Home/>
-        <Boxes/>
-        <Categories/>
-        <Products/>
-        <Newsletter/>
-        <Footer/>
-      </div>
-    );
-  }
-}
+const Body = ({products}) => {
+  return (
+    <div className="super_container">
+      <Menu />
+      <Sidebar />
+      <Home />
+      <Boxes />
+      <Categories />
+      <Products products={products} />
+      <Newsletter />
+      <Footer />
+    </div>
+  );
+};
 
 export default Body;
