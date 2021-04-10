@@ -1,7 +1,7 @@
 import React from "react";
 import { commerce } from "../lib/commerce";
 import Head from "next/head";
-import Body from "./components/Body";
+import Body from "../components/Body";
 
 export async function getStaticProps() {
   const merchant = await commerce.merchants.about();
