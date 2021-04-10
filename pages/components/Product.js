@@ -3,10 +3,10 @@ import Link from "next/link";
 
 const Product = ({ product }) => {
   return (
-    <div className="product grid-item hot">
+    product && <div className="product grid-item hot">
       <div className="product_inner">
         <div className="product_image">
-          { product.assets ? 
+          { product && product.assets ? 
           <img src={product.assets[0].url} alt={product.description} /> :
           <img src="/static/images/product_1.jpg" alt={product.description} /> }
           <div className="product_tag">hot</div>

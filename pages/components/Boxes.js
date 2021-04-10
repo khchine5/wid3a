@@ -9,12 +9,12 @@ class Boxes extends React.Component {
           <div className="container">
             <div className="row">
               
-              <Box></Box>
+              <Box/>
               
               <div className="col-lg-4 box_col">
                 <div className="box">
                   <div className="box_image">
-                    <img src="/static/images/box_2.jpg" alt />
+                    <img src="/static/images/box_2.jpg" alt=""  />
                   </div>
                   <div className="box_title trans_200">
                     <a href="categories.html">eyewear collection</a>
@@ -25,7 +25,7 @@ class Boxes extends React.Component {
               <div className="col-lg-4 box_col">
                 <div className="box">
                   <div className="box_image">
-                    <img src="/static/images/box_3.jpg" alt />
+                    <img src="/static/images/box_3.jpg" alt=""  />
                   </div>
                   <div className="box_title trans_200">
                     <a href="categories.html">basic pieces</a>
